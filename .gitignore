@@ -1,0 +1,14 @@
+# Local .terraform folder (contains plugins)
+.terraform/
+
+# State files (contains your infrastructure secrets)
+*.tfstate
+*.tfstate.backup
+
+# Sensitive variables
+*.tfvars
+
+# SSH Private Keys
+*.pem
+*.key
+id_ed25519
